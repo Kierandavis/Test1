@@ -1,0 +1,93 @@
+html {
+	background: url("https://timemarcheson.files.wordpress.com/2011/07/bugs-bunny-wallpaper.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: white; 
+	background: linear-gradient(top, white 0%, white 100%);  
+	background: -moz-linear-gradient(top, white 0%, white 100%); 
+	background: -webkit-linear-gradient(top, white 0%, white 100%); 
+	box-shadow: 0px 0px 9px rgba(232,67,12);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: black;
+		background: linear-gradient(top, black 0%, black 40%);
+		background: -moz-linear-gradient(top, black 0%, black 40%);
+		background: -webkit-linear-gradient(top, black 0%, black 40%);
+	}
+		nav ul li:hover a {
+			color: #E87A0C;
+		}
+	
+		nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #FF9D00; text-decoration: none;
+	}
+
+	nav ul ul {
+	background: #FF9D00 border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: black;
+			}
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+div {
+	background-color: #FF6000;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
+
+table {
+	border: none;
+}
+
+td {
+	width: 33%;
+	color: white;
+}
+
+img {
+	height: 25%;
+	padding-left: 5%;
+}
